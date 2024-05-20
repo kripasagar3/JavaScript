@@ -10,7 +10,7 @@
         //name="pavi";
         const name="lakshman"
         {
-              let name="ram" //it does not alloe to change. 
+              let name="ram" //it does not alloe to change
                  console.log(name);
                  //constant doesn't execute when it out side the  
                 }
