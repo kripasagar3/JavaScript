@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head> Display page</head>
+<body>
+    <p id="disp">hi welcome to our page</p>
+    <button type="button" onclick="myFunction()">click it</button>
+
+    <script>
+
+        function myFunction(){
+        let sname="ram";
+        document.getElementById("disp").innerHTML=(sname);
+        let pass="kripasagar@123";
+        let rec=String(pass);
+   if(rec==(rec.length>=8)&& ('@')||('#')||('$')||('&'))
+    {
+        document.getElementById("disp").innerHTML="your password is correct";
+    }
+    else 
+    {
+        document.getElementById("disp").innerHTML="Enter a password with requirements";
+    }
+
+        let mark=50
+
+        res=( mark<=40 ? "you need to reappear": 
+        mark>=40 && mark<60 ?"Firts class":
+        mark>=60 && mark<80  ?"A+ Grade":
+        mark>=90 && mark<100 ? "O grade" :"please check the mark");
+        document.getElementById("disp").innerHTML=(res);
+}
+
+//document.getElementById("disp").innerHTML="thankyou."; 
+        
+   
+   </script>
+</body>
+</html>
