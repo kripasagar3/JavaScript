@@ -1,10 +1,10 @@
-// let student={
-//     name:"harish",
-//     age:22,
-//     place:"tirupur"
-// }
-// console.log(Object.getOwnPropertyNames(student));
-/////////
+let student={
+    name:"harish",
+    age:22,
+    place:"tirupur"
+}
+console.log(Object.getOwnPropertyNames(student));
+///////
 
 let tname=Symbol ('symb1');
 let age=Symbol('symb2')
