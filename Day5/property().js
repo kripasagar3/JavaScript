@@ -1,15 +1,15 @@
-// let student={
-//     name:"ramesh",
-//     age:22,
-//     place:"salem"
-// };
-// console.log(student);
-// console.log(Object.getOwnPropertyNames(student));
-// console.log(student.name="simbu");//it is mutable 
-// console.log(student);
+let student={
+    name:"ramesh",
+    age:22,
+    place:"salem"
+};
+console.log(student);
+console.log(Object.getOwnPropertyNames(student));
+console.log(student.name="simbu");//it is mutable 
+console.log(student);
 
 
-//
+
 
 let naame=Symbol('name');//it is immutable.
 let dob=Symbol('dob');
