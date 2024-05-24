@@ -24,11 +24,6 @@ class seller extends buyer
         this.id=id;
         this.number= number;
         this.dispseller();
-
-
-    
-
-
     }
     dispseller()
     {
